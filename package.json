@@ -1,0 +1,20 @@
+{
+  "name": "veg_work_docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.101",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^18.0.0",
+    "@vercel/ncc": "^0.34.0"
+  }
+}
