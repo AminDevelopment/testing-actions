@@ -2,8 +2,8 @@ import { APIGatewayProxyEvent, APIGatewayProxyResultV2, Handler } from 'aws-lamb
 import * as _ from 'lodash';
 
 export const handler: Handler = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResultV2> => {
-    const max = 10;
-    const val = _.random(max)
+    const max = 100;
+    const val = _.random(10, max)
     const response = {
         statusCode: 200,
         body: `Your random value is ( max: ${max}) is ${val}`,
